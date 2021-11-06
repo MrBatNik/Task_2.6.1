@@ -13,6 +13,7 @@
 		1BEAAD8727369BBE0090A4D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEAAD8527369BBE0090A4D6 /* Main.storyboard */; };
 		1BEAAD8927369BBE0090A4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEAAD8827369BBE0090A4D6 /* Assets.xcassets */; };
 		1BEAAD8C27369BBE0090A4D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEAAD8A27369BBE0090A4D6 /* LaunchScreen.storyboard */; };
+		1BEAAD942736A6FC0090A4D6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAAD932736A6FC0090A4D6 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1BEAAD8827369BBE0090A4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BEAAD8B27369BBE0090A4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BEAAD8D27369BBE0090A4D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEAAD932736A6FC0090A4D6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,10 @@
 				1BEAAD7F27369BBE0090A4D6 /* AppDelegate.swift */,
 				1BEAAD8127369BBE0090A4D6 /* SceneDelegate.swift */,
 				1BEAAD8327369BBE0090A4D6 /* ViewController.swift */,
+				1BEAAD932736A6FC0090A4D6 /* SettingsViewController.swift */,
 				1BEAAD8527369BBE0090A4D6 /* Main.storyboard */,
-				1BEAAD8827369BBE0090A4D6 /* Assets.xcassets */,
 				1BEAAD8A27369BBE0090A4D6 /* LaunchScreen.storyboard */,
+				1BEAAD8827369BBE0090A4D6 /* Assets.xcassets */,
 				1BEAAD8D27369BBE0090A4D6 /* Info.plist */,
 			);
 			path = Task_2.6.1;
@@ -140,6 +143,7 @@
 			files = (
 				1BEAAD8427369BBE0090A4D6 /* ViewController.swift in Sources */,
 				1BEAAD8027369BBE0090A4D6 /* AppDelegate.swift in Sources */,
+				1BEAAD942736A6FC0090A4D6 /* SettingsViewController.swift in Sources */,
 				1BEAAD8227369BBE0090A4D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +311,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,6 +328,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
